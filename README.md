@@ -39,7 +39,9 @@ In order to generate separate `bt.c` and `bt.h` files, simply run `make`. To
 customize the genrated code, run `make 'DEFINES=-DBT_ELEM=<your_type>'`. More
 `-D` flags can be added to further customize the implementation. Note that the
 generated code may not work out of the box and may require some, but not much
-modification. Maybe a couple of `#include` statements or something like that.
+modification. Maybe a couple of `#include` statements or something like that. To
+specify a custom formatter use the flag `FORMATTER=clang-format` in the make
+command, for example.
 
 ## Macros
 
