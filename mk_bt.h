@@ -69,8 +69,8 @@
 
 #else
 
-!#ifndef _BTREE_H_
-!#define _BTREE_H_
+// !#ifndef _BTREE_H_
+// !#define _BTREE_H_
 
 !#include <stdio.h>
 !#include <stdlib.h>
@@ -459,9 +459,9 @@ BT_MKFN(BT_ELEM*, bt_iter_dfs_next, struct BT_MKID(bt_iter_dfs)* iter)
 
 #endif
 
-#ifdef BT_GENERATE
-!#endif
-#endif
+// #ifdef BT_GENERATE
+// !#endif
+// #endif
 
 #undef BT_ELEM
 #undef BT_MKID
