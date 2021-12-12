@@ -35,7 +35,7 @@ In order to generate implementation and definitions in separate files. Just
 include `btree.h` in the `.c` and in the header do the same, but also define
 `BT_DECL_ONLY` to only generate definitions and no implementation.
 
-In order to generate separate `.c` and `.h` files, simply run `make`. To
+In order to generate separate `bt.c` and `bt.h` files, simply run `make`. To
 customize the genrated code, run `make 'DEFINES=-DBT_ELEM=<your_type>'`. More
 `-D` flags can be added to further customize the implementation. Note that the
 generated code may not work out of the box and may require some, but not much
