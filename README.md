@@ -1,4 +1,4 @@
-# Make Me a BTree - A flexible BTree implementation on a single header file
+# Make Me a BTree
 
 The basic idea of this library is to be simple to use and customize. Just
 include the this file in your source code and set some macros and there you
